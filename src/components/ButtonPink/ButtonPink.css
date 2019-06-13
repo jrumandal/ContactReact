@@ -1,0 +1,9 @@
+.pink {
+  border: 3px solid white;
+  background-color: pink;
+  width: 60px;
+  height: 60px;
+  margin: 22px;
+  border-radius: 50%;
+}
+  

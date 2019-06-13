@@ -1,17 +1,21 @@
 import React from 'react';
 import './PaletteColor.css';
+import ButtonBlue from '../ButtonBlue/ButtonBlue';
+import ButtonRed from '../ButtonRed/ButtonRed';
+import ButtonYellow from '../ButtonYellow/ButtonYellow';
+import ButtonPink from '../ButtonPink/ButtonPink';
 
 class PaletteColor extends React.Component {
     render() {
         return (
             <div className="paletteColor">
-                    <div id="palette" className="blue"></div>
-                    <div id="palette" className="red"></div>
-                    <div id="palette" className="yellow"></div>
-                    <div id="palette" className="pink"></div>
+                    <ButtonBlue/>
+                    <ButtonRed/>
+                    <ButtonYellow/>
+                    <ButtonPink/>
                     <div className="colorId">B</div>
             </div>
-        )
+        );
     }
 }
 

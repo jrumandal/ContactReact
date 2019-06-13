@@ -17,7 +17,7 @@ function App() {
 
     <WindowFormNewContact/>
 
-                        {/* FORM PER MODIFICARE IL CONTATTO */}
+                    {/* FORM PER MODIFICARE IL CONTATTO */}
 
     <WindowEditFormContact/>
     
@@ -28,9 +28,9 @@ function App() {
                 {/* DIV DEL NOME DELLA APP E DELLA FUNZIONE RICERCA */}
     <Header/>
 
-                                                    {/* DIV DEL BODY DELLA APP */}                       
+                            {/* DIV DEL BODY DELLA APP */}                       
     <div className="windowApp">
-                                                {/* DIV DEI BOTTONI FILTRO PER INIZIALE */}
+                            {/* DIV DEI BOTTONI FILTRO PER INIZIALE */}
         <div className="ltrNavBar">
             <div className="ltrLabel">A</div>
             <div className="ltrLabel">B</div>

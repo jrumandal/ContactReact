@@ -1,0 +1,9 @@
+
+.yellow {
+    border: 3px solid lightyellow;
+    background-color: yellow;
+    width: 60px;
+    height: 60px;
+    margin: 22px;
+    border-radius: 50%;
+  }
