@@ -1,0 +1,8 @@
+.editBtn {
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+    right: 10px;
+  }

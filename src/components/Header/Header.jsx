@@ -6,7 +6,7 @@ import './Header.css';
 class Header extends React.Component {
     render () {
         return (
-        <div class="containerName">
+        <div className="containerName">
             <NameApp/>
             <SearchForm/>
         </div>

@@ -6,7 +6,7 @@ import './SearchForm.css';
 class SearchForm extends React.Component {
     render () {
         return (
-        <div class="frmSearch">
+        <div className="frmSearch">
                 <ButtonSearch/>
                 <InputSearch/>
         </div>

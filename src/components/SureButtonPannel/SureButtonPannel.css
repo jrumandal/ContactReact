@@ -1,0 +1,9 @@
+
+.sureBtnPanel {
+    display: flex;
+    justify-content: space-between;
+    font-size: 35px;
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+}

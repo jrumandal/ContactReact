@@ -4,7 +4,7 @@ import './NameApp.css';
 class NameApp extends React.Component {
     render () {
         return (
-            <div class="nameApp">CONTACTS</div>
+            <div className="nameApp">CONTACTS</div>
         );
     }
 }
