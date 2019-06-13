@@ -1,0 +1,6 @@
+.containerName {
+    background-color: #52A7E3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
