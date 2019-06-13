@@ -4,31 +4,28 @@ import Header from './components/Header/Header';
 import SureDelete from './components/SureDelete/SureDelete';
 import WindowFormNewContact from './components/WindowFormNewContact/WindowFormNewContact';
 import WindowEditFormContact from './components/WindowEditFormContact/WindowEditFormContact';
+import WindowFormColor from './components/WindowFormColor/WindowFormColor';
 
 function App() {
  return (
 <div>
-                                                            {/* FORM SICUREZZA DEL DELETE */}
+                        {/* FORM SICUREZZA DEL DELETE */}
+
     <SureDelete/>
 
-                                                            {/* FORM PER NUOVO CONTATTO */}
+                        {/* FORM PER NUOVO CONTATTO */}
+
     <WindowFormNewContact/>
-                                                       {/* FORM PER MODIFICARE IL CONTATTO */}
+
+                        {/* FORM PER MODIFICARE IL CONTATTO */}
 
     <WindowEditFormContact/>
     
-                                                    {/* FORM PER CAMBIARE COLORE */}
+                        {/* FORM PER CAMBIARE COLORE */}
 
-    <div className="colorFormWindow">
-        <div className="paletteColor">
-            <div id="palette" className="blue"></div>
-            <div id="palette" className="red"></div>
-            <div id="palette" className="yellow"></div>
-            <div id="palette" className="pink"></div>
-            <div className="colorId">B</div>
-        </div>
-    </div>
-                                            {/* DIV DEL NOME DELLA APP E DELLA FUNZIONE RICERCA */}
+    <WindowFormColor/>
+    
+                {/* DIV DEL NOME DELLA APP E DELLA FUNZIONE RICERCA */}
     <Header/>
 
                                                     {/* DIV DEL BODY DELLA APP */}                       
