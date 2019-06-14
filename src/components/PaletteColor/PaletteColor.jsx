@@ -4,6 +4,7 @@ import ButtonBlue from '../ButtonBlue/ButtonBlue';
 import ButtonRed from '../ButtonRed/ButtonRed';
 import ButtonYellow from '../ButtonYellow/ButtonYellow';
 import ButtonPink from '../ButtonPink/ButtonPink';
+import ColorId from '../ColorId/ColorId';
 
 class PaletteColor extends React.Component {
     render() {
@@ -13,7 +14,7 @@ class PaletteColor extends React.Component {
                     <ButtonRed/>
                     <ButtonYellow/>
                     <ButtonPink/>
-                    <div className="colorId">B</div>
+                    <ColorId/>
             </div>
         );
     }

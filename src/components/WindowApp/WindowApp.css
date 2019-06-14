@@ -1,0 +1,12 @@
+
+.windowApp {
+    background-color: #C6F5ED;
+  }
+  
+  .windowApp::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  
