@@ -10,93 +10,18 @@ body {
   font-weight: bold;
 }
 
-form {
-  background-color: white;
-  border-radius: 10px;
-  width: 250px;
-  padding: 30px;
-}
-
-
-
 label {
   display: block;
   text-align: center;
 }
 
-input {
-  border-color: white;
-  border-radius: 5px;
-  margin-top: 3px;
-  margin-bottom: 15px;
-  width: 100%;
-}
 
-.windowApp, form {
-  background-color: #C6F5ED;
-}
 
-.windowApp::after {
-  content: "";
-  clear: both;
-  display: table;
-}
 
-.ltrNavBar {
-  border: none;
-  width: 10%;
-  float: left;
-  display: flex;
-  flex-direction: column;
-}
 
-.ltrLabel {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  font-weight: bold;
-  color: #273575;
-  background-color: #52A7E3;
-  border: 1px solid white;
-  border-top: 0px;
-  height: 30px;
-  border-bottom-left-radius: 15px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 
-.ltrLabel:hover {
-  height: 48px;
-  box-shadow: 0px -3px 5px grey;
-}
 
-.listWindow {
-  width: 90%;
-  float: left;
-  border: none
-}
 
-.bckButton {
-  margin: 8px;
-  width: 100px;
-  text-align: center;
-  padding: 10px;
-  display: none;
-}
-
-.contactListWindow {
-  width: 90%;
-  margin-top: 20px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  position: absolute;
-}
-
-.listWindow::after {
-  content: "";
-  clear: both;
-  display: table;
-}
 
 .card {
   height: 250px;
@@ -164,42 +89,14 @@ input {
   text-transform: capitalize;
 }
 
-.btnColor{
-  font-weight: bolder;
-  font-size: 25px;
-  width: 50px;
-  height: 50px;
-  border: none;
-  border-radius: 50%;
-  position: fixed;
-  bottom: 30px;
-  right: 150px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #52A7E3;
-}
 
-.btnNew {
-  font-weight: bolder;
-  font-size: 25px;
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  position: fixed;
-  bottom: 30px;
-  right: 30px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #66AB18;
-}
+
 
 .idContact, .index {
   display: none;
 }
 
- .editBtn:hover, .btnColor:hover, .editButton:hover, .cancelButton:hover, .btnNew:hover {
+ .editBtn:hover, .editButton:hover, .cancelButton:hover {
   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
 }
 

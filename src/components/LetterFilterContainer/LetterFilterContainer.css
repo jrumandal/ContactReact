@@ -1,0 +1,9 @@
+.ltrNavBar {
+    border: none;
+    width: 10%;
+    float: left;
+    display: flex;
+    flex-direction: column;
+  }
+  
+

@@ -1,0 +1,11 @@
+.listWindow {
+  width: 90%;
+  float: left;
+  border: none
+}
+
+.listWindow::after {
+  content: "";
+  clear: both;
+  display: table;
+}
