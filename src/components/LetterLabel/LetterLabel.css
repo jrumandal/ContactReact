@@ -1,3 +1,4 @@
+  
 .ltrLabel {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: bold;
@@ -10,4 +11,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+
+  
+.ltrLabel:hover {
+    height: 48px;
+    box-shadow: 0px -3px 5px grey;
   }
