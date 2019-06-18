@@ -3,6 +3,7 @@ import './WindowFormNewContact.css';
 import FormNewContact from '../FormNewContact/FormNewContact';
 
 class WindowFormNewContact extends React.Component {
+
     render () {
         return (
             <div className="formWindow">
