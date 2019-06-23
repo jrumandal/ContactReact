@@ -17,3 +17,14 @@
   .btnNew:hover  {
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
   }
+
+  .windowFluttuante {
+    display: none;
+    justify-content: center;
+    padding: 30px;
+    align-items: center;
+  }
+
+  .windowFluttuante.open {
+    display: flex;
+  }
